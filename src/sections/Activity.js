@@ -1,12 +1,36 @@
+import { useEffect } from 'react';
 import * as utils from '../utils';
 
 function Activity() {
+
+  useEffect(() => {
+    const UIHelper = global['UIHelper'];
+    UIHelper.initCarousel('#activity-carousel', {
+      nav: false,
+      responsive:{
+        0:{
+          items:2,
+          nav:false,
+        },
+        600:{
+          items:2,
+          nav:false
+        },
+        1000:{
+          items:3,
+          nav:false,
+          loop:false
+        }
+      }
+    });
+  }, []);
+
     return (
         <div className="container-fluid fh5co-recent-work activity">
     <div className="container recent">
       <div className="row">
         <h2>Activity of the month</h2>
-        <div className="owl-carousel owl-carousel3 owl-theme">
+        <div id="activity-carousel" className="owl-carousel owl-carousel3 owl-theme">
           <div>
             <div className="card"> <img className="card-img" src={utils.assetUrl('img/activity-img1.png')} alt="" />
               <div className="card-img-overlay">
