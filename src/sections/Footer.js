@@ -17,7 +17,7 @@ function Footer() {
       </div>
     </div>
     <div className="copy pt-4 pb-4">
-      <p><a href="https://freehtml5.co/" target="_blank"> &copy; 2019 Girly</a>  &nbsp;  |  &nbsp; Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> &nbsp; | &nbsp;  All rights reserved</p>
+      <p><a href="https://freehtml5.co/" target="_blank" rel="noreferrer"> &copy; 2019 Girly</a>  &nbsp;  |  &nbsp; Design by <a href="https://freehtml5.co/" target="_blank">freehtml5.co</a> &nbsp; | &nbsp;  All rights reserved</p>
     </div>
   </footer>
     );

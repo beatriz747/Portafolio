@@ -9,7 +9,7 @@ function HomeBanner() {
                 <div className="card-img-overlay">
                     <div className="center-text">
                         <h2 className="card-title">A camera is the save button for the mind's eye</h2>
-                        <a href="#" className="btn btn-outline-danger">
+                        <a href="/" className="btn btn-outline-danger">
                             Explore
                         </a>
                     </div>

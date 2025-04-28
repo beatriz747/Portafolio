@@ -12,7 +12,7 @@ function Activity() {
               <div className="card-img-overlay">
                 <div className="bottom-text">
                   <h5 className="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
-                  <a href="#">Read more <img src={utils.assetUrl('img/double-right.svg')} alt="" /></a> 
+                  <a href="/">Read more <img src={utils.assetUrl('img/double-right.svg')} alt="" /></a> 
                 </div>
               </div>
             </div>
@@ -22,7 +22,7 @@ function Activity() {
               <div className="card-img-overlay">
                 <div className="bottom-text">
                   <h5 className="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
-                  <a href="#">Read more <img src={utils.assetUrl('img/double-right.svg')} alt="" /></a> 
+                  <a href="/">Read more <img src={utils.assetUrl('img/double-right.svg')} alt="" /></a> 
                 </div>
               </div>
             </div>
@@ -32,7 +32,7 @@ function Activity() {
               <div className="card-img-overlay">
                 <div className="bottom-text">
                   <h5 className="card-title">Sed ut perspiciatis unde &nbsp; iste natus error sit volup</h5>
-                  <a href="#">Read more <img src={utils.assetUrl('img/double-right.svg')} alt="" /></a> 
+                  <a href="/">Read more <img src={utils.assetUrl('img/double-right.svg')} alt="" /></a> 
                 </div>
               </div>
             </div>

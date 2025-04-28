@@ -25,7 +25,7 @@ function ContactCard() {
                     <h4>Experta en Marketing Digital</h4>
                     <hr />
                     <p>Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.</p>
-                    <a href="#" className="btn">CONTACTAME</a> </div>
+                    <a href="/" className="btn">CONTACTAME</a> </div>
                 </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function WorkCards() {
               <div className="card">
                 <img className="card-img" src={utils.assetUrl('img/recent-img1.jpg')} alt="" />
                 <div className="card-img-overlay">
-                    <a href="#">
+                    <a href="/">
                         <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
                     </a>
                   <div className="bottom-text">
@@ -56,7 +56,7 @@ function WorkCards() {
               <div className="card"> 
                 <img className="card-img" src={utils.assetUrl('img/recent-img2.jpg')} alt="" />
                 <div className="card-img-overlay"> 
-                    <a href="#">
+                    <a href="/">
                         <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
                     </a>
                   <div className="bottom-text">
@@ -70,7 +70,7 @@ function WorkCards() {
               <div className="card">
                 <img className="card-img" src={utils.assetUrl('img/recent-img3.jpg')} alt="" />
                 <div className="card-img-overlay">
-                    <a href="#">
+                    <a href="/">
                         <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
                     </a>
                   <div className="bottom-text">
@@ -84,7 +84,7 @@ function WorkCards() {
               <div className="card">
                 <img className="card-img" src={utils.assetUrl('img/recent-img4.jpg')} alt="" />
                 <div className="card-img-overlay">
-                    <a href="#">
+                    <a href="/">
                         <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
                     </a>
                   <div className="bottom-text">
