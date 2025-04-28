@@ -21,8 +21,8 @@ This repository primarily serves as the source code for my deployed portfolio. H
 
 1.  **Clone the repository:**
     ```bash
-    git clone [git@github.com:ilbesculpi/marketeer.git)
-    cd marketeer
+    git clone [git@github.com:beatriz747/Portafolio-.git)
+    cd Portafolio
     ```
 
 2.  **Install dependencies:**
