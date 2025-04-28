@@ -1,0 +1,85 @@
+{
+    "name": "Beatriz Duque",
+    "jobTitle": "Especialista en Marketing Digital",
+    "bio": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.",
+    "gallery": {
+        "title": "Trabajos Recientes",
+        "images": [
+            {
+                "url": "img/recent-img1.jpg",
+                "title": "Model photography",
+                "text": "Digital, Photography"
+            },
+            {
+                "url": "img/recent-img2.jpg",
+                "title": "Product photography",
+                "text": "Digital, Photography"
+            },
+            {
+                "url": "img/recent-img3.jpg",
+                "title": "Tour and potrait",
+                "text": "Digital, Photography"
+            },
+            {
+                "url": "img/recent-img4.jpg",
+                "title": "Classical photography",
+                "text": "Digital, Photography"
+            },
+            {
+                "url": "img/feed-img1.png",
+                "title": "Urban photography",
+                "text": "Digital, Photography"
+            },
+            {
+                "url": "img/feed-img2.png",
+                "title": "Outdoors photography",
+                "text": "Digital, Photography"
+            }
+        ]
+    },
+    "portfolio": {
+        "title": "Portafolio",
+        "images": [
+            {
+                "url": "img/portfolio-img1.png",
+                "title": "Natural site",
+                "layout": "bx-1"
+            },
+            {
+                "url": "img/portfolio-img2.png",
+                "title": "Vacation special photography",
+                "layout": "bx-2"
+            },
+            {
+                "url": "img/portfolio-img3.png",
+                "title": "Product photography",
+                "layout": "bx-3"
+            },
+            {
+                "url": "img/portfolio-img6.png",
+                "title": "Historical place shots",
+                "layout": "bx-4"
+            },
+            {
+                "url": "img/portfolio-img4.png",
+                "title": "Urban photography",
+                "layout": "bx-4"
+            },
+            {
+                "url": "img/portfolio-img5.png",
+                "title": "Outdoors photography",
+                "layout": "bx-4"
+            },
+            {
+                "url": "img/portfolio-img7.png",
+                "title": "Outdoors photography",
+                "layout": "bx-1"
+            },
+            {
+                "url": "img/portfolio-img8.png",
+                "title": "Outdoors photography",
+                "layout": "bx-2"
+            }
+        ]
+    }
+}

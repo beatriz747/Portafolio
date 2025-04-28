@@ -1,5 +1,5 @@
-jQuery(document).ready(function(){
 
+/*jQuery(document).ready(function(){
 
   jQuery(".owl-carousel2").owlCarousel({
     loop:true,
@@ -72,11 +72,39 @@ jQuery(document).ready(function(){
     }
   }
   );
-
-
-
 });
-
+*/
 function myFunction(x) {
   x.classList.toggle("change");
 }
+
+class UIHelper {
+
+  static initCarousel(target, options = {}) {
+    const owlOpts = Object.assign({
+      loop:true,
+      center: false,
+      margin:20,
+      responsiveClass:true,
+      nav:true,
+      responsive:{
+        0:{
+          items:2,
+          nav:false,
+        },
+        600:{
+          items:2,
+          nav:false
+        },
+        1000:{
+          items:4,
+          nav:true,
+          loop:true
+        }
+      }
+    }, options);
+    jQuery(target).owlCarousel(owlOpts);
+  }
+}
+
+window.UIHelper = UIHelper;
