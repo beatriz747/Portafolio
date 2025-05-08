@@ -17,7 +17,7 @@ function Features({ features }) {
                 <div className="row g-4"> 
                 { features.services.map((service, index) => (
                     <div key={"feature-"+index} className="col-md-6 col-lg-4">
-                        <div className="card h-100">
+                        <div className="card feature-card h-100">
                             <div className="card-body text-center">
                                 <i className={getIconClassName(service.icon, service.style)}></i>
                                 <h3 className="card-title fw-semibold">{ service.title }</h3>
