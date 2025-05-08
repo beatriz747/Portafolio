@@ -10,6 +10,7 @@ import Testimonial from './sections/Testimonial';
 
 import './App.css';
 import Features from './sections/Features';
+import Brands from './sections/Brands';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -48,6 +49,7 @@ function App() {
       <HomeBanner />
       <InfoCard profile={profileData} />
       <Features features={profileData.features} />
+      <Brands />
       <Portfolio portfolio={profileData.portfolio} />
       <Activity />
       <Testimonial />
