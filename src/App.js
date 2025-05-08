@@ -9,6 +9,7 @@ import Portfolio from './sections/Portfolio';
 import Testimonial from './sections/Testimonial';
 
 import './App.css';
+import Features from './sections/Features';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -46,6 +47,7 @@ function App() {
       <Navbar />
       <HomeBanner />
       <InfoCard profile={profileData} />
+      <Features features={profileData.features} />
       <Portfolio portfolio={profileData.portfolio} />
       <Activity />
       <Testimonial />
