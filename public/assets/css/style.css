@@ -148,7 +148,7 @@ h2 {
   background: -linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); }
 
 .contact-pop {
-  margin-top: -300px; }
+  margin-top: 0px; }
   .contact-pop .card-img-overlay {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));

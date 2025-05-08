@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <HomeBanner />
+      {/* <HomeBanner /> */}
       <InfoCard profile={profileData} />
       <Features features={profileData.features} />
       <Brands />

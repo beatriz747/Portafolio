@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import * as utils from '../utils';
+import './InfoCard.css';
 
 function InfoCard({ profile }) {
   return (
@@ -14,10 +15,10 @@ function ContactCard({ profile }) {
   return (
     <div className="container contact-pop">
       <div className="row">
-        <div className="col-md-6  pr-0">
+        <div className="col-md-6 pr-0">
           <div className="card">
-              <img className="card-img w-100" src={utils.assetUrl('img/avatar.jpeg')} alt="" />
-              <div className="card-img-overlay"> </div>
+              <img className="card-img w-100 rounded-image" src={utils.assetUrl(profile.avatar)} alt="" />
+              <div className="card-img-overlay"></div>
           </div>
         </div>
         <div className="col-md-6 pl-0" id="about">
