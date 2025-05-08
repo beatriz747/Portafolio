@@ -13,7 +13,7 @@ This repository contains the source code for a marketing showcase website. It's 
 
 You can view the live portfolio website here:
 
-[Portfolio](https://beatriz747.github.io/Portafolio-/)
+[Portfolio](https://beatriz747.github.io/Portafolio/)
 
 ## Usage
 
@@ -21,7 +21,7 @@ This repository primarily serves as the source code for my deployed portfolio. H
 
 1.  **Clone the repository:**
     ```bash
-    git clone [git@github.com:beatriz747/Portafolio-.git)
+    git clone [git@github.com:beatriz747/Portafolio.git)
     cd Portafolio
     ```
 
