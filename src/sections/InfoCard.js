@@ -13,11 +13,11 @@ function InfoCard({ profile }) {
 
 function ContactCard({ profile }) {
   return (
-    <div className="container contact-pop">
+    <div className="container contact-pop p-5">
       <div className="row">
         <div className="col-md-6 pr-0">
           <div className="card">
-              <img className="card-img w-100 rounded-image" src={utils.assetUrl(profile.avatar)} alt="" />
+              <img className="card-img w-100" src={utils.assetUrl(profile.avatar)} alt="" />
               <div className="card-img-overlay"></div>
           </div>
         </div>
