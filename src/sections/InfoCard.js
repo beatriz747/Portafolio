@@ -27,8 +27,33 @@ function ContactCard({ profile }) {
               <h4>{ profile.jobTitle }</h4>
               <hr />
               <p>{ profile.bio }</p>
-              <a href="/" className="btn">CONTACTAME</a> </div>
+              <div className="text-center">
+                <a href="/" className="btn btn-contact">
+                <i class="fas fa-download"></i> Descargar CV
+                </a>
+              </div>
+              <p>
+                <i className="fas fa-envelope mr-2"></i>
+                <a href={"mailto:"+profile.contact.email}>{ profile.contact.email }</a>
+              </p>
+              <p>
+                <i className="fas fa-phone mr-2"></i>
+                <a href={profile.contact.telephone.link}>{ profile.contact.telephone.text }</a>
+              </p>
+              <p>
+                <i className="fas fa-map-marker mr-2"></i>
+                { profile.contact.location }
+              </p>
+              <hr/>
+              <div className="social-links">
+                { profile.socialNetworks.map((network, index) => (
+                  <a key={"sn-link-"+index} href={network.url} className="btn btn-light mr-2" target="_blank" rel="noopener noreferrer">
+                    <i className={network.icon}></i>
+                  </a>
+                ))}
+              </div>
           </div>
+        </div>
       </div>
     </div>
   );

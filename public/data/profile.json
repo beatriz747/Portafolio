@@ -3,6 +3,32 @@
     "jobTitle": "Especialista en Marketing Digital",
     "bio": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.",
     "avatar": "img/bduque.jpeg",
+    "contact": {
+        "telephone":  {
+            "text": "+58 414-5823713",
+            "link": "https://wa.me/584145823713?text=Hola, me interesa trabajar contigo"
+        },
+        "email": "beatriz747@gmail.com",
+        "location": "Caracas, Venezuela"
+    },
+    "socialNetworks": [
+        {
+            "icon": "fab fa-linkedin",
+            "url": "https://www.linkedin.com"
+        },
+        {
+            "icon": "fab fa-instagram",
+            "url": "https://www.instagram.com"
+        },
+        {
+            "icon": "fab fa-facebook",
+            "url": "https://www.facebook.com"
+        },
+        {
+            "icon": "fab fa-twitter",
+            "url": "https://www.twitter.com"
+        }
+    ],
     "features": {
         "title": "Mis Servcios",
         "description": "Ofrecemos una variedad de servicios para ayudarte a alcanzar tus metas.",
