@@ -2,6 +2,30 @@
     "name": "Beatriz Duque",
     "jobTitle": "Especialista en Marketing Digital",
     "bio": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.",
+    "features": {
+        "title": "Mis Servcios",
+        "description": "Ofrecemos una variedad de servicios para ayudarte a alcanzar tus metas.",
+        "services": [
+            {
+                "icon": "fas fa-rocket",
+                "style": "primary",
+                "title": "Branding y Estrategia",
+                "text": "Te ayudamos a definir tu identidad de marca y a crear una estrategia para llegar a tu público objetivo."
+            },
+            {
+                "icon": "fas fa-tools",
+                "style": "success",
+                "title": "Gestión de Proyectos",
+                "text": "Gestionamos tus proyectos de principio a fin, asegurando que se entreguen a tiempo y dentro del presupuesto."
+            },
+            {
+                "icon": "fas fa-pencil",
+                "style": "warning",
+                "title": "Creación de Contenido",
+                "text": "Creamos contenido de alta calidad que atrae a tu audiencia e impulsa resultados."
+            }
+        ]
+    },
     "gallery": {
         "title": "Trabajos Recientes",
         "images": [
