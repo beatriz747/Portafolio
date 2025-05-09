@@ -26,6 +26,9 @@
   font-family: "PT-Sans-Italic";
   src: url(../fonts/PT_Sans-Web-Italic.ttf); }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-size: 16px;
   font-family: "PT-Sans-Regular"; }
