@@ -5,6 +5,7 @@ import './ProfileBio.css';
 function ProfileBio({ profile }) {
   return (
     <div className="container-fluid fh5co-recent-work">
+      <Background />
       <ContactCard profile={profile} />
       <GalleryCards gallery={profile.gallery} />
     </div>
@@ -85,7 +86,7 @@ function GalleryCards({ gallery }) {
   }, []);
   
   return (
-      <div className="container recent" id="activity">
+      <div className="container recent" id="recientes">
       <div className="row">
         <h2>{ gallery.title }</h2>
         <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme">
@@ -107,6 +108,27 @@ function GalleryCards({ gallery }) {
           )) }
         </div>
       </div>
+    </div>
+  );
+}
+
+function Background() {
+  return (
+    <div className="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
   );
 }
