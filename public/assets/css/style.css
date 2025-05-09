@@ -159,7 +159,7 @@ h2 {
     max-width: 918px;
     margin: 0 auto; }
   .contact-pop img {
-    border-radius: 10px 0 0 10px;
+    border-radius: 15px 0 0 15px;
     object-fit: cover;
     height: 100%; }
   .contact-pop .content {

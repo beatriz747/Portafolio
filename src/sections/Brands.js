@@ -2,11 +2,11 @@ import './Brand.css';
 
 function Brands() {
     return (
-        <section className="py-5">
+        <section className="container-fluid fh5co-brands" id="brands">
             <div className="container">
                 <div className="row justify-content-center mb-5">
                     <div className="col-12 col-lg-8 text-center">
-                        <h2 className="display-4 fw-bold">Marcas con las que he trabajado</h2>
+                        <h2 className="h2 fw-bold">Marcas con las que he trabajado</h2>
                         <p className="lead text-muted">He tenido el privilegio de colaborar con marcas increíbles.</p>
                     </div>
                 </div>

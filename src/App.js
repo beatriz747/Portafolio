@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import Activity from './sections/Activity';
 import Footer from './sections/Footer';
-import InfoCard from './sections/InfoCard';
+import ProfileBio from './sections/ProfileBio';
 import Navbar from './sections/Navbar';
 import Portfolio from './sections/Portfolio';
 import Testimonial from './sections/Testimonial';
@@ -45,7 +45,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <InfoCard profile={profileData} />
+      <ProfileBio profile={profileData} />
       <Features features={profileData.features} />
       <Brands />
       <Portfolio portfolio={profileData.portfolio} />

@@ -6,17 +6,17 @@ function Features({ features }) {
         return [icon, "text-"+style, "h1", "mb-3"].join(" ");
     }
     return (
-        <section className="py-5 bg-light">
+        <section className="container-fluid bg-light fh5co-features" id="features">
             <div className="container">
                 <div className="row justify-content-center mb-5">
                     <div className="col-12 col-lg-8 text-center">
-                        <h2 className="display-4 fw-bold">{ features.title }</h2>
+                        <h2 className="h2 fw-bold">{ features.title }</h2>
                         <p className="lead text-muted">{ features.description }</p>
                     </div>
                 </div>
                 <div className="row g-4"> 
                 { features.services.map((service, index) => (
-                    <div key={"feature-"+index} className="col-md-6 col-lg-4">
+                    <div key={"feature-"+index} className="col-md-6 col-lg-4 mb-4">
                         <div className="card feature-card h-100">
                             <div className="card-body text-center">
                                 <i className={getIconClassName(service.icon, service.style)}></i>
