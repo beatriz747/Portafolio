@@ -1,0 +1,14 @@
+
+
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.9;
+    background: #E90E65;
+background: linear-gradient(0deg,rgba(233, 14, 101, 1) 0%, rgba(0, 0, 0, 1) 90%);
+}
