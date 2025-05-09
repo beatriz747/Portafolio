@@ -37,7 +37,7 @@ function ContactCard({ profile }) {
                 <a href={"mailto:"+profile.contact.email}>{ profile.contact.email }</a>
               </p>
               <p>
-                <i className="fas fa-phone mr-2"></i>
+                <i className="fab fa-whatsapp-square mr-2"></i>
                 <a href={profile.contact.telephone.link}>{ profile.contact.telephone.text }</a>
               </p>
               <p>
