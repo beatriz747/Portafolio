@@ -1,19 +1,20 @@
 import { useEffect } from 'react';
 import * as utils from '../utils';
-import './InfoCard.css';
+import './ProfileBio.css';
 
-function InfoCard({ profile }) {
+function ProfileBio({ profile }) {
   return (
     <div className="container-fluid fh5co-recent-work">
-        <ContactCard profile={profile} />
-        <GalleryCards gallery={profile.gallery} />
+      <Background />
+      <ContactCard profile={profile} />
+      <GalleryCards gallery={profile.gallery} />
     </div>
   );
 }
 
 function ContactCard({ profile }) {
   return (
-    <div className="container contact-pop p-5">
+    <div className="container contact-pop py-4">
       <div className="row">
         <div className="col-md-6 pr-0">
           <div className="card">
@@ -27,11 +28,6 @@ function ContactCard({ profile }) {
               <h4>{ profile.jobTitle }</h4>
               <hr />
               <p>{ profile.bio }</p>
-              <div className="text-center">
-                <a href="/" className="btn btn-contact">
-                <i class="fas fa-download"></i> Descargar CV
-                </a>
-              </div>
               <p>
                 <i className="fas fa-envelope mr-2"></i>
                 <a href={"mailto:"+profile.contact.email}>{ profile.contact.email }</a>
@@ -44,14 +40,20 @@ function ContactCard({ profile }) {
                 <i className="fas fa-map-marker mr-2"></i>
                 { profile.contact.location }
               </p>
-              <hr/>
-              <div className="social-links">
+              <div className="social-links text-center">
                 { profile.socialNetworks.map((network, index) => (
-                  <a key={"sn-link-"+index} href={network.url} className="btn btn-light mr-2" target="_blank" rel="noopener noreferrer">
+                  <a key={"sn-link-"+index} href={network.url} className="btn btn-light mr-2 mb-2" target="_blank" rel="noopener noreferrer">
                     <i className={network.icon}></i>
                   </a>
                 ))}
               </div>
+              <hr/>
+              <div className="text-center">
+                <a href="/" className="btn btn-contact">
+                <i class="fas fa-download"></i> Descargar CV
+                </a>
+              </div>
+              
           </div>
         </div>
       </div>
@@ -84,7 +86,7 @@ function GalleryCards({ gallery }) {
   }, []);
   
   return (
-      <div className="container recent" id="activity">
+      <div className="container recent" id="recientes">
       <div className="row">
         <h2>{ gallery.title }</h2>
         <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme">
@@ -110,4 +112,26 @@ function GalleryCards({ gallery }) {
   );
 }
 
-export default InfoCard;
+function Background() {
+  return (
+    <div className="background">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  );
+}
+
+
+export default ProfileBio;
