@@ -10,8 +10,10 @@ import Testimonial from './sections/Testimonial';
 import './App.css';
 import Features from './sections/Features';
 import Brands from './sections/Brands';
+import RecentWork from './sections/RecentWork';
 
 function App() {
+
   const [isLoading, setIsLoading] = useState(true);
   const [profileData, setProfileData] = useState(null);
   const [pageError, setPageError] = useState(null);
@@ -46,6 +48,7 @@ function App() {
     <>
       <Navbar />
       <ProfileBio profile={profileData} />
+      <RecentWork gallery={profileData.recentWork} />
       <Features features={profileData.features} />
       <Brands />
       <Portfolio portfolio={profileData.portfolio} />

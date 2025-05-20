@@ -9,8 +9,8 @@ function Navbar() {
                 <li className="nav-item active"> <a className="nav-link" href="/">Inicio</a> </li>
                 <li className="nav-item"> <a className="nav-link" href="#recientes" tabindex="-1" aria-disabled="true">Trabajos</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#servicios" tabindex="-1" aria-disabled="true">Servicios</a></li>
-                <li className="nav-item"> <a className="nav-link" href="#brands" tabindex="-1" aria-disabled="true">Marcas</a></li>
-                <li className="nav-item"> <a className="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portafolio</a></li>
+                <li className="nav-item"> <a className="nav-link" href="#marcas" tabindex="-1" aria-disabled="true">Marcas</a></li>
+                <li className="nav-item"> <a className="nav-link" href="#portafolio" tabindex="-1" aria-disabled="true">Portafolio</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Testimonios</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contacto</a></li>
                 </ul>
