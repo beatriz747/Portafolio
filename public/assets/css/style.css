@@ -70,6 +70,9 @@ h2 {
 .section-bg-dark {
   background: var(--main-bg-section-dark);
 }
+.section-bg-gray {
+  background: #212020;
+}
 .section-bg-accent1 {
   background: #ffe5fd;
 }

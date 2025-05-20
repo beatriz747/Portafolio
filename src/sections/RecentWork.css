@@ -1,0 +1,17 @@
+.videoContainer {
+    margin: 20px auto 0;
+    width: 50%;
+    background-color: #222020;
+}
+  @media (max-width: 600px) {
+    .videoContainer {
+      width: 100%;
+    }
+  }
+  .videoContainer .card-title {
+    font-size: 32px;
+    color: #ed3474;
+  }
+  .videoContainer .card-text {
+    color: #fff;
+  }
