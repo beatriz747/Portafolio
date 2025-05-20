@@ -3,7 +3,7 @@
     white-space: pre-wrap;
 }
 
-.background {
+.background-bio {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -12,6 +12,4 @@
     overflow: hidden;
     z-index: 0;
     opacity: 0.9;
-    background: #FFE5FD;
-    background: linear-gradient(0deg,rgba(255, 229, 253, 1) 0%, rgba(255, 255, 255, 1) 90%);
 }

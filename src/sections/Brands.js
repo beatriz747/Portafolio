@@ -2,7 +2,7 @@ import './Brand.css';
 
 function Brands() {
     return (
-        <section className="container-fluid fh5co-brands" id="brands">
+        <section className="container-fluid fh5co-brands section-bg-light" id="marcas">
             <div className="container">
                 <div className="row justify-content-center mb-5">
                     <div className="col-12 col-lg-8 text-center">

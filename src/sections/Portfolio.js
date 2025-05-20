@@ -2,7 +2,7 @@ import * as utils from '../utils';
 
 function Portfolio({ portfolio }) {
     return (
-      <div className="container-fluid recent fh5co-portfolio" id="portfolio">
+      <div className="container-fluid fh5co-portfolio section-bg-accent1" id="portafolio">
         <div className="container">
           <h2>{ portfolio.title }</h2>
           <div className="row">
