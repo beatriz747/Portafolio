@@ -11,7 +11,7 @@ function Brands() {
                     </div>
                 </div>
                 <div className="row g-4">
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 mb-4">
                         <div className="card h-100 card-ig-profile">
                             <div className="card-body text-center">
                                 <img src="https://picsum.photos/id/237/200/300" alt="Nombre de la Marca 1" className="rounded-circle mb-3" style={{ width: '150px', height: '150px' }} />
@@ -21,7 +21,7 @@ function Brands() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 mb-4">
                         <div className="card h-100 card-ig-profile">
                             <div className="card-body text-center">
                                 <img src="https://loremflickr.com/320/240?random=2" alt="Nombre de la Marca 2" className="rounded-circle mb-3" style={{ width: '150px', height: '150px' }} />
@@ -31,7 +31,7 @@ function Brands() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-4">
+                    <div className="col-md-6 col-lg-4 mb-4">
                         <div className="card h-100 card-ig-profile">
                             <div className="card-body text-center">
                                 <img src="https://cataas.com/cat" alt="Nombre de la Marca 3" className="rounded-circle mb-3" style={{ width: '150px', height: '150px' }} />
