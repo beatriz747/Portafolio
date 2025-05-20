@@ -41,51 +41,51 @@
             }
         ]
     },
-    "gallery": {
+    "recentWork": {
         "title": "Trabajos Realizados",
-        "images": [
+        "type": "video",
+        "items": [
             {
                 "url": "video/W150340.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail1.png",
                 "title": "MERCURY",
-                "text": "Creación de contenido"
+                "caption": "Creación de contenido"
             },
             {
                 "url": "video/W150444.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail2.png",
                 "title": "Product photography",
-                "text": "Digital, Photography"
+                "caption": "Digital, Photography"
             },
             {
                 "url": "video/W150721.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail3.png",
                 "title": "Product photography",
-                "text": "Digital, Photography"
+                "caption": "Digital, Photography"
             },
             {
                 "url": "video/W150722.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail1.png",
                 "title": "Tour and potrait",
-                "text": "Digital, Photography"
+                "caption": "Digital, Photography"
             },
             {
                 "url": "video/W151103.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail2.png",
                 "title": "Classical photography",
-                "text": "Digital, Photography"
+                "caption": "Digital, Photography"
             },
             {
                 "url": "video/W151209.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail3.png",
                 "title": "Urban photography",
-                "text": "Digital, Photography"
-
+                "caption": "Digital, Photography"
             },
             {
                 "url": "video/W151408.mp4",
-                "type": "video",
+                "thumbnail": "video/thumbnail1.png",
                 "title": "Classical photography",
-                "text": "Digital, Photography"
+                "caption": "Digital, Photography"
             }
         ]
     },
