@@ -3,8 +3,8 @@ import './ProfileBio.css';
 
 function ProfileBio({ profile }) {
   return (
-    <div className="container-fluid fh5co-recent-work">
-      <Background />
+    <div className="container-fluid fh5co-profile-bio">
+      <div className="background-bio section-bg-gradient"></div>
       <ContactCard profile={profile} />
     </div>
   );
@@ -64,20 +64,7 @@ function ContactCard({ profile }) {
 function Background() {
   return (
     <div className="background">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+
     </div>
   );
 }

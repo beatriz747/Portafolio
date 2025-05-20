@@ -26,7 +26,7 @@ function Activity() {
   }, []);
 
     return (
-        <div className="container-fluid fh5co-recent-work activity">
+        <div className="container-fluid fh5co-recent-work fh5co-activity section-bg-accent2">
     <div className="container recent">
       <div className="row">
         <h2>Activity of the month</h2>

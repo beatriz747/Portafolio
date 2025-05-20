@@ -3,7 +3,7 @@ import * as utils from '../utils';
 
 function RecentWork({ gallery }) {
     return (
-        <div className="container-fluid fh5co-recent-work">
+        <div className="container-fluid fh5co-recent-work section-bg-light">
             <VideoGallery gallery={gallery} />
         </div>
     );
