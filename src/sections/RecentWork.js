@@ -64,23 +64,6 @@ function VideoGallery({ gallery }) {
   );
 }
 
-function GalleryImage({item}) {
-  return (
-    <>
-      <img className="card-img" src={utils.assetUrl(item.url)} alt="" />
-      <div className="card-img-overlay">
-        <a href="/">
-          <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
-        </a>
-        <div className="bottom-text">
-          <h5 className="card-title">{ item.title }</h5>
-          <p className="card-text">{ item.text }</p>
-        </div>
-      </div>
-    </>
-  );
-}
-
 function VideoItem({item}) {
   const videoRef = useRef();
   useEffect(() => {    
