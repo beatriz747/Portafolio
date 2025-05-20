@@ -6,7 +6,7 @@ function Features({ features }) {
         return [icon, "text-"+style, "h1", "mb-3"].join(" ");
     }
     return (
-        <section className="container-fluid bg-light fh5co-features" id="servicios">
+        <section className="container-fluid fh5co-features" id="servicios">
             <div className="container">
                 <div className="row justify-content-center mb-5">
                     <div className="col-12 col-lg-8 text-center">

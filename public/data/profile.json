@@ -42,13 +42,13 @@
         ]
     },
     "gallery": {
-        "title": "Trabajos Recientes",
+        "title": "Trabajos Realizados",
         "images": [
             {
                 "url": "video/W150340.mp4",
                 "type": "video",
                 "title": "MERCURY",
-                "text": "Digital, Photography"
+                "text": "Creación de contenido"
             },
             {
                 "url": "video/W150444.mp4",
