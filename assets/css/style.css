@@ -6,10 +6,13 @@
  */
 
  :root {
-  --main-primary-color: #fd76f9;
+  /* --main-primary-color: #fd76f9; */
+  --main-primary-color: #e587ac;
   --main-accent-color: #3d383a;
   --main-bg-section-light: #fff;
   --main-bg-section-dark: #f8f9fa;
+  --main-primary-button-color: #3d383a;
+  --main-primary-button-text: #fff;
 }
 
 * {
@@ -179,7 +182,7 @@ h2 {
     background: #fff;
     border-radius: 0 15px 15px 0; }
     .contact-pop .content h3 {
-      color: #3d383a;
+      color: var(--main-accent-color);
       font-size: 30px;
       text-transform: uppercase;
       margin-bottom: 10px; }
@@ -190,16 +193,16 @@ h2 {
     .contact-pop .content p {
       color: #584f53; }
     .contact-pop .content hr {
-      background-color: #3d383a;
+      background-color: var(--main-accent-color);
       width: 50px;
       height: 5px;
       border: none;
       margin-left: 0; }
     .contact-pop .content a.btn-contact {
-      background-color: #3d383a;
+      background-color: var(--main-primary-button-color);
       width: 158px;
       border-radius: 40px;
-      color: #fefefe;
+      color: var(--main-primary-button-text);
       padding: 10px 0;
       margin-top: 16px;
       margin-bottom: 16px; }
@@ -429,7 +432,7 @@ h2 {
       margin: 0 2px; }
       .recent .owl-carousel .owl-nav .owl-prev:hover, .recent .owl-carousel .owl-nav .owl-next:hover {
         background: #fff;
-        color: #ffe5fd; }
+        color: var(--main-primary-color); }
       .recent .owl-carousel .owl-nav .owl-prev span, .recent .owl-carousel .owl-nav .owl-next span {
         position: relative;
         display: block;
@@ -446,7 +449,7 @@ h2 {
       border-radius: 15px; }
     .recent .card h5 {
       font-size: 20px;
-      color: var(--main-primary-color);
+      color: #e587ac;
       margin-bottom: 5px; }
     .recent .card p {
       font-size: 14px;
