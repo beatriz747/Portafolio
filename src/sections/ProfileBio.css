@@ -1,4 +1,7 @@
 
+.pre {
+    white-space: pre-wrap;
+}
 
 .background {
     position: absolute;
@@ -10,5 +13,5 @@
     z-index: 0;
     opacity: 0.9;
     background: #E90E65;
-background: linear-gradient(0deg,rgba(233, 14, 101, 1) 0%, rgba(0, 0, 0, 1) 90%);
+    background: linear-gradient(0deg,rgba(233, 14, 101, 1) 0%, rgba(0, 0, 0, 1) 90%);
 }

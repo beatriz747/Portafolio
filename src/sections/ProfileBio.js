@@ -27,7 +27,7 @@ function ContactCard({ profile }) {
               <h3>{ profile.name }</h3>
               <h4>{ profile.jobTitle }</h4>
               <hr />
-              <p>{ profile.bio }</p>
+              <p className="pre">{ profile.bio }</p>
               <p>
                 <i className="fas fa-envelope mr-2"></i>
                 <a href={"mailto:"+profile.contact.email}>{ profile.contact.email }</a>
@@ -90,25 +90,51 @@ function GalleryCards({ gallery }) {
       <div className="row">
         <h2>{ gallery.title }</h2>
         <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme">
-          { gallery.images.map((image, index) => (
+          { gallery.images.map((item, index) => (
             <div key={"gallery-image-"+index}>
               <div className="card">
-                <img className="card-img" src={utils.assetUrl(image.url)} alt="" />
-                <div className="card-img-overlay">
-                    <a href="/">
-                        <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
-                    </a>
-                  <div className="bottom-text">
-                    <h5 className="card-title">{ image.title }</h5>
-                    <p className="card-text">{ image.text }</p>
-                  </div>
-                </div>
+                {item.type === "image" && <GalleryImage item={item} />}
+                {item.type === "video" && <GalleryVideo item={item} />}
               </div>
             </div>
           )) }
         </div>
       </div>
     </div>
+  );
+}
+
+function GalleryImage({item}) {
+  return (
+    <>
+      <img className="card-img" src={utils.assetUrl(item.url)} alt="" />
+      <div className="card-img-overlay">
+        <a href="/">
+          <img src={utils.assetUrl('img/heart.png')} className="heart" alt="heart icon" />
+        </a>
+        <div className="bottom-text">
+          <h5 className="card-title">{ item.title }</h5>
+          <p className="card-text">{ item.text }</p>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function GalleryVideo({item}) {
+  return (
+    <>
+      <div className="card-video-overlay">
+        <div className="bottom-text">
+          <h5 className="card-title">{ item.title }</h5>
+          <p className="card-text">{ item.text }</p>
+        </div>
+      </div>
+      <video width="100%" height="500" controls>
+        <source src={utils.assetUrl(item.url)} type="video/mp4" />
+            Your browser does not support the video tag.
+      </video>
+    </>
   );
 }
 

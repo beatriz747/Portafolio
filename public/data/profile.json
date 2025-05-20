@@ -1,32 +1,20 @@
 {
     "name": "Beatriz Duque",
-    "jobTitle": "Especialista en Marketing Digital",
-    "bio": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco.",
+    "jobTitle": "Lcda. Mercadeo y Publicidad",
+    "bio":  "Hola, soy Beatriz Duque, mercadólogo con +8 años de experiencia en el área de marketing digital.\nAyudo a potenciar los negocios de marcas a través de marketing de contenidos, redes sociales, benchmarking, estrategia y publicidad online.",
     "avatar": "img/bduque.jpeg",
     "contact": {
         "telephone":  {
             "text": "+58 414-5823713",
             "link": "https://wa.me/584145823713?text=Hola, me interesa trabajar contigo"
         },
-        "email": "beatriz747@gmail.com",
+        "email": "juhariduque@gmail.com",
         "location": "Caracas, Venezuela"
     },
     "socialNetworks": [
         {
-            "icon": "fab fa-linkedin",
-            "url": "https://www.linkedin.com"
-        },
-        {
             "icon": "fab fa-instagram",
-            "url": "https://www.instagram.com"
-        },
-        {
-            "icon": "fab fa-facebook",
-            "url": "https://www.facebook.com"
-        },
-        {
-            "icon": "fab fa-twitter",
-            "url": "https://www.twitter.com"
+            "url": "https://www.instagram.com/_beatrizduque"
         }
     ],
     "features": {
@@ -57,33 +45,46 @@
         "title": "Trabajos Recientes",
         "images": [
             {
-                "url": "img/recent-img1.jpg",
-                "title": "Model photography",
+                "url": "video/W150340.mp4",
+                "type": "video",
+                "title": "MERCURY",
                 "text": "Digital, Photography"
             },
             {
-                "url": "img/recent-img2.jpg",
+                "url": "video/W150444.mp4",
+                "type": "video",
                 "title": "Product photography",
                 "text": "Digital, Photography"
             },
             {
-                "url": "img/recent-img3.jpg",
+                "url": "video/W150721.mp4",
+                "type": "video",
+                "title": "Product photography",
+                "text": "Digital, Photography"
+            },
+            {
+                "url": "video/W150722.mp4",
+                "type": "video",
                 "title": "Tour and potrait",
                 "text": "Digital, Photography"
             },
             {
-                "url": "img/recent-img4.jpg",
+                "url": "video/W151103.mp4",
+                "type": "video",
                 "title": "Classical photography",
                 "text": "Digital, Photography"
             },
             {
-                "url": "img/feed-img1.png",
+                "url": "video/W151209.mp4",
+                "type": "video",
                 "title": "Urban photography",
                 "text": "Digital, Photography"
+
             },
             {
-                "url": "img/feed-img2.png",
-                "title": "Outdoors photography",
+                "url": "video/W151408.mp4",
+                "type": "video",
+                "title": "Classical photography",
                 "text": "Digital, Photography"
             }
         ]
