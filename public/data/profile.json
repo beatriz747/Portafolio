@@ -5,7 +5,7 @@
     "avatar": "img/bduque.jpeg",
     "contact": {
         "telephone":  {
-            "text": "+58 414-5823713",
+            "text": "(+58) 4145823713",
             "link": "https://wa.me/584145823713?text=Hola, me interesa trabajar contigo"
         },
         "email": "juhariduque@gmail.com",
@@ -14,7 +14,8 @@
     "socialNetworks": [
         {
             "icon": "fab fa-instagram",
-            "url": "https://www.instagram.com/_beatrizduque"
+            "url": "https://www.instagram.com/_beatrizduque",
+            "username": "_beatrizduque"
         }
     ],
     "features": {
