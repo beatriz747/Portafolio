@@ -61,7 +61,7 @@ h2 {
 
 .section-bg-gradient {
   background: #ffe5fd;
-  background: linear-gradient(0deg,rgba(255, 229, 253, 1) 0%, rgba(255, 255, 255, 1) 90%);
+  background: linear-gradient(0deg,rgba(255, 229, 253, 1) 0%, rgba(255, 245, 250, 1) 90%);
 }
 
 .section-bg-light {
@@ -122,12 +122,20 @@ h2 {
     .maine-menu .collapse.show {
       background: rgba(0, 0, 0, 0.5); } }
 
+      /*
 .card {
   border: none;
   background: none;
-  border-radius: 0; }
+  border-radius: 0;
+}
   .card img {
-    border-radius: 0; }
+    border-radius: 0;
+}*/
+.card.no-border {
+  border: none;
+  background: none;
+  border-radius: 0;
+}
 
 .fh5co-home-banner {
   padding: 0; }
@@ -289,8 +297,8 @@ h2 {
 .fh5co-recent-work h2 {
   color: var(--main-accent-color); }
 .fh5co-recent-work .owl-carousel .owl-stage-outer {
-  padding-top: 30px;
-  padding-bottom: 50px; }
+  padding-top: 24px;
+  padding-bottom: 24px; }
 .fh5co-recent-work .owl-carousel .owl-nav {
   display: block;
   position: absolute;
@@ -334,7 +342,7 @@ h2 {
     -webkit-transform: scale(1.05, 1.1);
     -ms-transform: scale(1.05, 1.1);
     -moz-transform: scale(1.05, 1.1); */
-    box-shadow: 0px 20px 32px 0px rgba(0, 0, 0, 0.25); }
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.25); }
     .fh5co-recent-work .card.active .card-img-overlay, .fh5co-recent-work .card:hover .card-img-overlay {
       background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
       background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
