@@ -16,8 +16,8 @@ function ContactCard({ profile }) {
       <div className="row">
         <div className="col-md-6 pr-0">
           <div className="card no-border">
-              <img className="card-img w-100" src={utils.assetUrl(profile.avatar)} alt="" />
-              <div className="card-img-overlay"></div>
+            <img className="card-img w-100" src={utils.assetUrl(profile.avatar)} alt="" />
+            <div className="card-img-overlay"></div>
           </div>
         </div>
         <div className="col-md-6 pl-0" id="about">
@@ -46,7 +46,7 @@ function ContactCard({ profile }) {
               </p>
               <hr/>
               <div className="text-center">
-                <a href="/" className="btn btn-contact">
+                <a href={utils.assetUrl(profile.resume)} className="btn btn-contact" download>
                   <i className="fas fa-download"></i> Descargar CV
                 </a>
               </div>
