@@ -47,46 +47,59 @@
         "type": "video",
         "items": [
             {
-                "url": "video/W150340.mp4",
-                "thumbnail": "video/thumb_W150340.png",
-                "poster": "video/poster_W150340.png",
+                "url": "video/video1.mp4",
+                "thumbnail": "video/thumbnail1.png",
+                "poster": "video/poster1.png",
                 "title": "MERCURY",
                 "caption": "Creación de contenido"
             },
             {
-                "url": "video/W150444.mp4",
+                "url": "video/video2.mov",
                 "thumbnail": "video/thumbnail2.png",
-                "title": "Product photography",
+                "poster": "video/poster2.png",
+                "title": "MERCURY",
                 "caption": "Digital, Photography"
             },
             {
-                "url": "video/W150721.mp4",
+                "url": "video/video3.mp4",
                 "thumbnail": "video/thumbnail3.png",
-                "title": "Product photography",
+                "poster": "video/poster3.png",
+                "title": "VIDEO 3",
                 "caption": "Digital, Photography"
             },
             {
-                "url": "video/W150722.mp4",
-                "thumbnail": "video/thumbnail1.png",
-                "title": "Tour and potrait",
+                "url": "video/video4.mp4",
+                "thumbnail": "video/thumbnail4.png",
+                "poster": "video/poster4.png",
+                "title": "Nuestros ríos son navegables",
                 "caption": "Digital, Photography"
             },
             {
-                "url": "video/W151103.mp4",
-                "thumbnail": "video/thumbnail2.png",
-                "title": "Classical photography",
+                "url": "video/video5.mp4",
+                "thumbnail": "video/thumbnail5.png",
+                "poster": "video/poster5.png",
+                "title": "iCenter",
                 "caption": "Digital, Photography"
             },
             {
-                "url": "video/W151209.mp4",
-                "thumbnail": "video/thumbnail3.png",
-                "title": "Urban photography",
+                "url": "video/video6.mp4",
+                "thumbnail": "video/thumbnail6.png",
+                "poster": "video/poster6.png",
+                "title": "iCenter",
                 "caption": "Digital, Photography"
             },
             {
-                "url": "video/W151408.mp4",
-                "thumbnail": "video/thumbnail1.png",
-                "title": "Classical photography",
+                "url": "video/video7.mp4",
+                "thumbnail": "video/thumbnail7.png",
+                "poster": "video/poster7.png",
+                "title": "HACHY",
+                "caption": "Digital, Photography"
+            },
+            {
+                "url": "video/video8.mp4",
+                "thumbnail": "video/thumbnail8.png",
+                "poster": "video/poster8.png",
+                "title": "Q' KRUNCH",
                 "caption": "Digital, Photography"
             }
         ]
