@@ -36,3 +36,6 @@
   object-fit: cover;
   border-radius: 15px;
 }
+.border2x {
+  padding: 2px;
+}

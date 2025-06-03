@@ -56,7 +56,7 @@ function VideoGallery({ gallery }) {
           <div className="col-12 col-md-6 mx-auto">
             <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme videoThumbs">
               { gallery.items.map((item, index) => (
-                <div key={"gallery-image-"+index} className={'card ' + (index === currentIndex ? 'border-secondary' : 'border')}>
+                <div key={"gallery-image-"+index} className={'card ' + (index === currentIndex ? 'border-primary border2x' : 'border border2x')}>
                   <div className="card-body">
                     <a href="#videoContainer" onClick={(event) => selectVideo(event, index)}>
                       <img src={utils.assetUrl(item.thumbnail)} alt={"Thumb " + item.title} />
