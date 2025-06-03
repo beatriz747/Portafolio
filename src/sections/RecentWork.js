@@ -46,9 +46,9 @@ function VideoGallery({ gallery }) {
       <div className="container">
         <h2>{ gallery.title }</h2>
         <div className="row">
-            <div className="col-12 col-md-8 mx-auto">
-              <VideoPlayer item={currentVideo} />
-            </div>
+          <div className="col-12 col-md-8 mx-auto">
+            <VideoPlayer item={currentVideo} />
+          </div>
         </div>
         <div className="row">
           <div className="col-12 col-md-8 mx-auto">
@@ -77,14 +77,14 @@ function VideoPlayer({item}) {
   }, [item.url]);
   return (
     <div className="card videoContainer">
-      <div className="card-body">
+      <div className="card-body text-center">
         <div className="card-video-overlay">
           <div className="bottom-text">
             <h5 className="card-title">{ item.title }</h5>
             <div className="card-text">{ item.caption }</div>
           </div>
         </div>
-        <video width="100%" height="380" controls ref={videoRef}>
+        <video width="342" height="512" controls ref={videoRef} poster={item.poster ? utils.assetUrl(item.poster) : ''}>
           <source src={utils.assetUrl(item.url)} type="video/mp4" />
               Your browser does not support the video tag.
         </video>

@@ -48,7 +48,8 @@
         "items": [
             {
                 "url": "video/W150340.mp4",
-                "thumbnail": "video/thumbnail1.png",
+                "thumbnail": "video/thumb_W150340.png",
+                "poster": "video/poster_W150340.jpg",
                 "title": "MERCURY",
                 "caption": "Creación de contenido"
             },

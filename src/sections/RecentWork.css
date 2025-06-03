@@ -3,10 +3,18 @@
     width: 100%;
     background-color: #222020;
 }
+  .videoContainer video {
+    width: 340px;
+    height: 512px;
+  }
   @media (max-width: 600px) {
     .videoContainer {
       width: 100%;
     }
+      .videoContainer video {
+        width: 100%;
+        height: 380px;
+      }
   }
   .videoContainer .card-title {
     font-size: 32px;
@@ -14,3 +22,11 @@
   .videoContainer .card-text {
     color: #fff !important;
   }
+.videoThumbs .card-body {
+  padding: 0;
+}
+.videoThumbs .card-body img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
