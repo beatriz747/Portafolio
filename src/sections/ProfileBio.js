@@ -17,7 +17,6 @@ function ContactCard({ profile }) {
         <div className="col-md-6 pr-0">
           <div className="card no-border">
             <img className="card-img w-100" src={utils.assetUrl(profile.avatar)} alt="" />
-            <div className="card-img-overlay"></div>
           </div>
         </div>
         <div className="col-md-6 pl-0" id="about">
