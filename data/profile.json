@@ -2,7 +2,8 @@
     "name": "Beatriz Duque",
     "jobTitle": "Lcda. Mercadeo y Publicidad",
     "bio":  "Hola, soy Beatriz Duque, mercadólogo con +8 años de experiencia en el área de marketing digital.\nAyudo a potenciar los negocios de marcas a través de marketing de contenidos, redes sociales, benchmarking, estrategia y publicidad online.",
-    "avatar": "img/bduque.jpeg",
+    "avatar": "img/bea.jpg",
+    "resume": "CV.pdf",
     "contact": {
         "telephone":  {
             "text": "(+58) 4145823713",
@@ -107,6 +108,13 @@
                 "thumbnail": "video/thumbnail9.png",
                 "poster": "video/poster9.png",
                 "title": "HydraFacial",
+                "caption": "Digital, Photography"
+            },
+            {
+                "url": "video/video10.mp4",
+                "thumbnail": "video/thumbnail10.png",
+                "poster": "video/poster10.png",
+                "title": "Video",
                 "caption": "Digital, Photography"
             }
         ]
