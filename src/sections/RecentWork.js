@@ -86,7 +86,7 @@ function VideoPlayer({item}) {
             <div className="card-text">{ item.caption }</div>
           </div>
         </div>
-        <video width="342" height="512" controls ref={videoRef} poster={item.poster ? utils.assetUrl(item.poster) : ''}>
+        <video controls ref={videoRef} poster={item.poster ? utils.assetUrl(item.poster) : ''}>
           <source src={utils.assetUrl(item.url)} type="video/mp4" />
               Your browser does not support the video tag.
         </video>
