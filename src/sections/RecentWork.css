@@ -7,17 +7,20 @@
     padding: 1rem;
   }
   .videoContainer video {
-    width: 360px;
-    height: 640px;
+    width: 66%;
   }
   @media (max-width: 600px) {
     .videoContainer {
       width: 100%;
     }
       .videoContainer video {
-        width: 240px;
-        height: 426px;
+        width: 60%;
       }
+  }
+  @media (max-width: 960px) {
+    .videoContainer video {
+      width: 80%;
+    }
   }
   .videoContainer .card-title {
     font-size: 32px;

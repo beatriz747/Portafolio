@@ -15,7 +15,7 @@ function VideoGallery({ gallery }) {
   useEffect(() => {
     const UIHelper = global['UIHelper'];
     UIHelper.initCarousel('#gallery-carousel', {
-      nav: false,
+      nav: true,
       loop: false,
       dots: false,
       responsive:{
@@ -44,16 +44,16 @@ function VideoGallery({ gallery }) {
   return (
     <div className="container-fluid fh5co-recent" id="recientes">
       <div className="container">
-        <div className="col-12 col-lg-8 mx-auto text-center">
+        <div className="col-12 col-md-8 mx-auto text-center">
           <h2 className="h2 fw-bold">{ gallery.title }</h2>
         </div>
         <div className="row">
-          <div className="col-12 col-md-8 mx-auto">
+          <div className="col-12 col-md-6 mx-auto">
             <VideoPlayer item={currentVideo} />
           </div>
         </div>
         <div className="row">
-          <div className="col-12 col-md-8 mx-auto">
+          <div className="col-12 col-md-6 mx-auto">
             <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme videoThumbs">
               { gallery.items.map((item, index) => (
                 <div key={"gallery-image-"+index} className={'card ' + (index === currentIndex ? 'border-secondary' : 'border')}>
