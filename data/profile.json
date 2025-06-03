@@ -59,21 +59,21 @@
                 "thumbnail": "video/thumbnail2.png",
                 "poster": "video/poster2.png",
                 "title": "MERCURY",
-                "caption": "Digital, Photography"
-            },
-            {
-                "url": "video/video3.mp4",
-                "thumbnail": "video/thumbnail3.png",
-                "poster": "video/poster3.png",
-                "title": "VIDEO 3",
-                "caption": "Digital, Photography"
+                "caption": "Creación de contenido"
             },
             {
                 "url": "video/video4.mp4",
                 "thumbnail": "video/thumbnail4.png",
                 "poster": "video/poster4.png",
-                "title": "Nuestros ríos son navegables",
-                "caption": "Digital, Photography"
+                "title": "MERCURY",
+                "caption": "Creación de contenido"
+            },
+            {
+                "url": "video/video3.mp4",
+                "thumbnail": "video/thumbnail3.png",
+                "poster": "video/poster3.png",
+                "title": "Ásya",
+                "caption": "Creación de contenido"
             },
             {
                 "url": "video/video5.mp4",
@@ -100,21 +100,21 @@
                 "url": "video/video8.mp4",
                 "thumbnail": "video/thumbnail8.png",
                 "poster": "video/poster8.png",
-                "title": "Q' KRUNCH",
+                "title": "Q'KRUNCH",
                 "caption": "Digital, Photography"
             },
             {
                 "url": "video/video9.mp4",
                 "thumbnail": "video/thumbnail9.png",
                 "poster": "video/poster9.png",
-                "title": "HydraFacial",
+                "title": "Innova",
                 "caption": "Digital, Photography"
             },
             {
                 "url": "video/video10.mp4",
                 "thumbnail": "video/thumbnail10.png",
                 "poster": "video/poster10.png",
-                "title": "Video",
+                "title": "Cazuelitas de Colombia",
                 "caption": "Digital, Photography"
             }
         ]
