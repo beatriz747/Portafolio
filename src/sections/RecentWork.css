@@ -10,8 +10,7 @@
   }
   .videoContainer .card-title {
     font-size: 32px;
-    color: #ed3474;
   }
   .videoContainer .card-text {
-    color: #fff;
+    color: #fff !important;
   }

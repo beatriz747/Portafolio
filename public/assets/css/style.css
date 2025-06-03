@@ -8,6 +8,7 @@
  :root {
   /* --main-primary-color: #fd76f9; */
   --main-primary-color: #e587ac;
+  --main-secondary-color: #ed3474;
   --main-accent-color: #3d383a;
   --main-bg-section-light: #fff;
   --main-bg-section-dark: #f8f9fa;
@@ -80,7 +81,7 @@ h2 {
   background: #f3e7e8;
 }
 .section-bg-accent3 {
-  background: #ed3474;
+  background: var(--main-secondary-color);
 }
 
 .maine-menu {
