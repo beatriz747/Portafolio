@@ -3,6 +3,9 @@
     width: 100%;
     background-color: #222020;
 }
+  .videoContainer .card-body {
+    padding: 1rem;
+  }
   .videoContainer video {
     width: 340px;
     height: 512px;

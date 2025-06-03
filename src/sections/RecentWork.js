@@ -44,7 +44,9 @@ function VideoGallery({ gallery }) {
   return (
     <div className="container-fluid fh5co-recent" id="recientes">
       <div className="container">
-        <h2>{ gallery.title }</h2>
+        <div className="col-12 col-lg-8 mx-auto text-center">
+          <h2 className="h2 fw-bold">{ gallery.title }</h2>
+        </div>
         <div className="row">
           <div className="col-12 col-md-8 mx-auto">
             <VideoPlayer item={currentVideo} />
