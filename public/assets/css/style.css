@@ -123,15 +123,6 @@ h2 {
     .maine-menu .collapse.show {
       background: rgba(0, 0, 0, 0.5); } }
 
-      /*
-.card {
-  border: none;
-  background: none;
-  border-radius: 0;
-}
-  .card img {
-    border-radius: 0;
-}*/
 .card.no-border {
   border: none;
   background: none;
