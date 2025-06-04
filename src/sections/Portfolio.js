@@ -22,6 +22,7 @@ function Portfolio({ portfolio }) {
         </div>
         <div className="row my-5">
           <div className="col-12 col-md-6 col-lg-4 mx-auto text-center">
+            <h5>{ portfolio.featuredVideo.caption }</h5>
             <video id="featuredVideo" className="w-100" controls autoPlay>
               <source src={utils.assetUrl(portfolio.featuredVideo.source)} type="video/mp4" />
               Your browser does not support the video tag.

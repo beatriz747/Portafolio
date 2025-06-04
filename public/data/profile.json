@@ -133,7 +133,7 @@
     },
     "portfolio": {
         "title": "Portafolio",
-        "description": "Donde nace la magia",
+        "description": "",
         "images": [
             {
                 "url": "img/portfolio/IMG_5419.jpeg",
@@ -174,7 +174,7 @@
         ],
         "featuredVideo": {
             "source": "/img/portfolio/featured.mp4",
-            "caption": "Video destacado"
+            "caption": "Donde nace la magia"
         },
         "cta": "https://wa.me/584145823713?text=Hola, me interesa trabajar contigo"
     },
