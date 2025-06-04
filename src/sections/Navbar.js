@@ -20,8 +20,6 @@ function Navbar() {
                 <li className="nav-item"> <a className="nav-link" href="#servicios" tabIndex="-1" aria-disabled="true">Servicios</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#marcas" tabIndex="-1" aria-disabled="true">Marcas</a></li>
                 <li className="nav-item"> <a className="nav-link" href="#portafolio" tabIndex="-1" aria-disabled="true">Portafolio</a></li>
-                <li className="nav-item"> <a className="nav-link" href="#testimonial" tabIndex="-1" aria-disabled="true">Testimonios</a></li>
-                <li className="nav-item"> <a className="nav-link" href="#contact" tabIndex="-1" aria-disabled="true">Contacto</a></li>
                 </ul>
             </div>
             </div>
