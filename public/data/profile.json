@@ -2,10 +2,11 @@
     "name": "Beatriz Duque",
     "jobTitle": "Lcda. Mercadeo y Publicidad",
     "bio":  "Hola, soy Beatriz Duque, mercadólogo con +8 años de experiencia en el área de marketing digital.\nAyudo a potenciar los negocios de marcas a través de marketing de contenidos, redes sociales, benchmarking, estrategia y publicidad online.",
-    "avatar": "img/bduque.jpeg",
+    "avatar": "img/bea.jpg",
+    "resume": "CV.pdf",
     "contact": {
         "telephone":  {
-            "text": "+58 414-5823713",
+            "text": "(+58) 4145823713",
             "link": "https://wa.me/584145823713?text=Hola, me interesa trabajar contigo"
         },
         "email": "juhariduque@gmail.com",
@@ -14,30 +15,43 @@
     "socialNetworks": [
         {
             "icon": "fab fa-instagram",
-            "url": "https://www.instagram.com/_beatrizduque"
+            "url": "https://www.instagram.com/_beatrizduque",
+            "username": "_beatrizduque"
         }
     ],
     "features": {
         "title": "Mis Servicios",
-        "description": "Ofrecemos una variedad de servicios para ayudarte a alcanzar tus metas.",
+        "description": "Te ofrezco las herramientas y servicios digitales para construir tu Éxito y hacerte destacar.",
         "services": [
             {
-                "icon": "fas fa-rocket",
                 "style": "primary",
                 "title": "Branding y Estrategia",
-                "text": "Te ayudamos a definir tu identidad de marca y a crear una estrategia para llegar a tu público objetivo."
+                "text": "Defino la esencia de tu marca. Juntos creamos la identidad y el mensaje que te diferencia y conecta con tu público."
             },
             {
-                "icon": "fas fa-tools",
                 "style": "success",
-                "title": "Gestión de Proyectos",
-                "text": "Gestionamos tus proyectos de principio a fin, asegurando que se entreguen a tiempo y dentro del presupuesto."
+                "title": "Gestión de Redes Sociales",
+                "text": "Tu marca siempre activa. Me ocupo de tu Instagram y otras plataformas digitales (Tiktok, Facebook, WhatsApp) y de la planificación para un crecimiento constante."
             },
             {
-                "icon": "fas fa-pencil",
                 "style": "warning",
                 "title": "Creación de Contenido",
-                "text": "Creamos contenido de alta calidad que atrae a tu audiencia e impulsa resultados."
+                "text": "Siempre hay una historia detrás, suficiente para darle forma y convertirlo en impacto visual. Transformo tus ideas en fotos y videos cautivadores que conectan y generan resultados."
+            },
+            {
+                "style": "info",
+                "title": "Gestión de Ads",
+                "text": "Publicidad y campañas segmentadas profesionalmente<br/>Posicionamiento SEO<br/>Publicidad en Google"
+            },
+            {
+                "style": "info",
+                "title": "Asesorías",
+                "text": "Individuales o grupales<br/>Planificación estratégica<br/>Cobertura de eventos o lanzamientos de productos"
+            },
+            {
+                "style": "success",
+                "title": "Desarrollo web",
+                "text": "Páginas Web informativas<br/>Páginas móviles<br/>Tiendas virtuales<br/>Desarrollo de aplicaciones"
             }
         ]
     },
@@ -46,46 +60,74 @@
         "type": "video",
         "items": [
             {
-                "url": "video/W150340.mp4",
+                "url": "video/video1.mp4",
                 "thumbnail": "video/thumbnail1.png",
+                "poster": "video/poster1.png",
                 "title": "MERCURY",
                 "caption": "Creación de contenido"
             },
             {
-                "url": "video/W150444.mp4",
+                "url": "video/video2.mov",
                 "thumbnail": "video/thumbnail2.png",
-                "title": "Product photography",
-                "caption": "Digital, Photography"
+                "poster": "video/poster2.png",
+                "title": "MERCURY",
+                "caption": "Creación de contenido"
             },
             {
-                "url": "video/W150721.mp4",
+                "url": "video/video4.mp4",
+                "thumbnail": "video/thumbnail4.png",
+                "poster": "video/poster4.png",
+                "title": "MERCURY",
+                "caption": "Creación de contenido"
+            },
+            {
+                "url": "video/video3.mp4",
                 "thumbnail": "video/thumbnail3.png",
-                "title": "Product photography",
-                "caption": "Digital, Photography"
+                "poster": "video/poster3.png",
+                "title": "Ásya",
+                "caption": "Creación de contenido"
             },
             {
-                "url": "video/W150722.mp4",
-                "thumbnail": "video/thumbnail1.png",
-                "title": "Tour and potrait",
-                "caption": "Digital, Photography"
+                "url": "video/video5.mp4",
+                "thumbnail": "video/thumbnail5.png",
+                "poster": "video/poster5.png",
+                "title": "iCenter",
+                "caption": "Creación de contenido orgánico"
             },
             {
-                "url": "video/W151103.mp4",
-                "thumbnail": "video/thumbnail2.png",
-                "title": "Classical photography",
-                "caption": "Digital, Photography"
+                "url": "video/video6.mp4",
+                "thumbnail": "video/thumbnail6.png",
+                "poster": "video/poster6.png",
+                "title": "iCenter",
+                "caption": "Creación de contenido orgánico"
             },
             {
-                "url": "video/W151209.mp4",
-                "thumbnail": "video/thumbnail3.png",
-                "title": "Urban photography",
-                "caption": "Digital, Photography"
+                "url": "video/video7.mp4",
+                "thumbnail": "video/thumbnail7.png",
+                "poster": "video/poster7.png",
+                "title": "iCenter",
+                "caption": "Creación de contenido orgánico"
             },
             {
-                "url": "video/W151408.mp4",
-                "thumbnail": "video/thumbnail1.png",
-                "title": "Classical photography",
-                "caption": "Digital, Photography"
+                "url": "video/video8.mp4",
+                "thumbnail": "video/thumbnail8.png",
+                "poster": "video/poster8.png",
+                "title": "Q'KRUNCH",
+                "caption": "Creación de contenido"
+            },
+            {
+                "url": "video/video9.mp4",
+                "thumbnail": "video/thumbnail9.png",
+                "poster": "video/poster9.png",
+                "title": "Innova",
+                "caption": "Creación de contenido"
+            },
+            {
+                "url": "video/video10.mp4",
+                "thumbnail": "video/thumbnail10.png",
+                "poster": "video/poster10.png",
+                "title": "Cazuelitas de Colombia",
+                "caption": "Creación de contenido"
             }
         ]
     },
@@ -131,6 +173,114 @@
                 "url": "img/portfolio-img8.png",
                 "title": "Outdoors photography",
                 "layout": "bx-2"
+            }
+        ]
+    },
+    "brands": {
+        "title": "Marcas con las que he trabajado",
+        "description": "He tenido el privilegio de colaborar con marcas increíbles.",
+        "items": [
+            {
+                "name": "Comida colombiana - Restaurant",
+                "username": "@cazuelitasdecolombia",
+                "image": "/img/brands/cazuelitasdecolombia.jpg",
+                "url": "https://www.instagram.com/cazuelitasdecolombia?igsh=OThneWIzNjFvOHk2"
+            },
+            {
+                "name": "Distribuidor Oficial de motores Mercury",
+                "username": "@mercuryesm",
+                "image": "/img/brands/mercuryesm.jpg",
+                "url": "https://www.instagram.com/mercuryesm"
+            },
+            {
+                "name": "Tiendas Daka",
+                "username": "@tiendasdaka",
+                "image": "/img/brands/tiendasdaka.jpg",
+                "url": "https://www.instagram.com/tiendasdaka"
+            },
+            {
+                "name": "MultiMax",
+                "username": "@multimax",
+                "image": "/img/brands/multimax.jpg",
+                "url": "https://www.instagram.com/multimax"
+            },
+            {
+                "name": "Kucce",
+                "username": "@kucceofficial",
+                "image": "/img/brands/kucceofficial.jpg",
+                "url": "https://www.instagram.com/kucceofficial"
+            },
+            {
+                "name": "BIJAO BAR AND LOUNGE",
+                "username": "@bijaoccs",
+                "image": "/img/brands/bijaoccs.jpg",
+                "url": "https://www.instagram.com/bijaoccs"
+            },
+            {
+                "name": "𝐀́ S Y A",
+                "username": "@asya.vzla",
+                "image": "/img/brands/asyavzla.jpg",
+                "url": "https://www.instagram.com/asya.vzla"
+            },
+            {
+                "name": "Q'Krunch",
+                "username": "@qkrunch",
+                "image": "/img/brands/qkrunch.jpg",
+                "url": "https://www.instagram.com/qkrunch"
+            },
+            {
+                "name": "iCenterve",
+                "username": "@icenterve",
+                "image": "/img/brands/icenterve.jpg",
+                "url": "https://www.instagram.com/icenterve"
+            },
+            {
+                "name": "Gerardo E Campos",
+                "username": "@gerardoecampos",
+                "image": "/img/brands/gerardoecampos.jpg",
+                "url": "https://www.instagram.com/gerardoecampos"
+            },
+            {
+                "name": "Mercedes Rest",
+                "username": "@mercdsrestaurant",
+                "image": "/img/brands/mercdsrestaurant.jpg",
+                "url": "https://www.instagram.com/mercdsrestaurant"
+            },
+            {
+                "name": "Modern Home | Mueblería",
+                "username": "@modernhome.vzla",
+                "image": "/img/brands/modernhomevzla.jpg",
+                "url": "https://www.instagram.com/modernhome.vzla"
+            },
+            {
+                "name": "INNOVA | Centro estético",
+                "username": "@innova_caracas",
+                "image": "/img/brands/innova_caracas.jpg",
+                "url": "https://www.instagram.com/innova_caracas"
+            },
+            {
+                "name": "Descarga Gastrobar",
+                "username": "@descarga.gastrobar",
+                "image": "/img/brands/descargagastrobar.jpg",
+                "url": "https://www.instagram.com/descarga.gastrobar"
+            },
+            {
+                "name": "Bucare Caracas Restaurant",
+                "username": "@bucarecaracas",
+                "image": "/img/brands/bucarecaracas.jpg",
+                "url": "https://www.instagram.com/bucarecaracas"
+            },
+            {
+                "name": "Arcadia | Agencia de Viajes",
+                "username": "@arcadia.viajes",
+                "image": "/img/brands/arcadiaviajes.jpg",
+                "url": "https://www.instagram.com/arcadia.viajes"
+            },
+            {
+                "name": "Cantv Ve",
+                "username": "@cantv.ve",
+                "image": "/img/brands/cantvve.jpg",
+                "url": "https://www.instagram.com/cantv.ve"
             }
         ]
     }

@@ -5,5 +5,22 @@
 .card-ig-profile {
     border: solid 1px #ccc;
     border-radius: 10px;
-    padding: 16px;
+    padding: 8px;
+}
+
+.card-ig-profile h3 {
+    display: none;
+    font-size: 1rem;
+}
+
+.card-ig-profile p {
+    font-size: 0.68rem;
+    margin: 4px 0;    
+}
+
+.card-ig-profile .card-body {
+    padding: 10px 5px;
+}
+.card-ig-profile .btn {
+    font-size: 0.7rem;
 }

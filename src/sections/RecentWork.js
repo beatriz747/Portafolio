@@ -4,9 +4,9 @@ import './RecentWork.css';
 
 function RecentWork({ gallery }) {
     return (
-        <div className="container-fluid fh5co-recent-work section-bg-light">
-            <VideoGallery gallery={gallery} />
-        </div>
+      <div className="container-fluid fh5co-recent-work section-bg-light">
+        <VideoGallery gallery={gallery} />
+      </div>
     );
 }
 
@@ -15,20 +15,18 @@ function VideoGallery({ gallery }) {
   useEffect(() => {
     const UIHelper = global['UIHelper'];
     UIHelper.initCarousel('#gallery-carousel', {
-      nav: false,
+      nav: true,
       loop: false,
+      dots: false,
       responsive:{
         0:{
           items:3,
-          nav:false,
         },
         600:{
           items:4,
-          nav:false
         },
         1000:{
           items:5,
-          nav:false
         }
       }
     });
@@ -36,49 +34,59 @@ function VideoGallery({ gallery }) {
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const currentVideo = gallery.items[currentIndex];
+
+  function selectVideo(event, index) {
+    console.log('event', event);
+    event.preventDefault();
+    setCurrentIndex(index);
+  }
   
   return (
-      <div className="container-fluid fh5co-recent" id="recientes">
-        <div className="container">
-            <h2>{ gallery.title }</h2>
-            <div className="row">
-                <div className="col-12">
-                  <VideoItem item={currentVideo} />
-                </div>
-            </div>
-            <div className="row">
-              <div className="col-12 col-md-7 mx-auto">
-                <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme">
-                  { gallery.items.map((item, index) => (
-                    <div key={"gallery-image-"+index} className="card">
-                      <a href="#videoContainer" onClick={() => setCurrentIndex(index)}>
-                        <img src={utils.assetUrl(item.thumbnail)} className="img-thumbnail" alt={"Thumb " + item.title} />
-                      </a>
-                    </div>
-                  )) }
-                </div>
-              </div>
-            </div>
+    <div className="container-fluid fh5co-recent" id="recientes">
+      <div className="container">
+        <div className="col-12 col-md-8 mx-auto text-center">
+          <h2 className="h2 fw-bold">{ gallery.title }</h2>
         </div>
+        <div className="row">
+          <div className="col-12 col-md-6 mx-auto">
+            <VideoPlayer item={currentVideo} />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-12 col-md-6 mx-auto">
+            <div id="gallery-carousel" className="owl-carousel owl-carousel2 owl-theme videoThumbs">
+              { gallery.items.map((item, index) => (
+                <div key={"gallery-image-"+index} className={'card ' + (index === currentIndex ? 'border-primary border2x' : 'border border2x')}>
+                  <div className="card-body">
+                    <a href="#videoContainer" onClick={(event) => selectVideo(event, index)}>
+                      <img src={utils.assetUrl(item.thumbnail)} alt={"Thumb " + item.title} />
+                    </a>
+                  </div>
+                </div>
+              )) }
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
 
-function VideoItem({item}) {
+function VideoPlayer({item}) {
   const videoRef = useRef();
   useEffect(() => {    
     videoRef.current?.load();
   }, [item.url]);
   return (
     <div className="card videoContainer">
-      <div className="card-body">
+      <div className="card-body text-center">
         <div className="card-video-overlay">
           <div className="bottom-text">
             <h5 className="card-title">{ item.title }</h5>
             <div className="card-text">{ item.caption }</div>
           </div>
         </div>
-        <video width="100%" height="380" controls ref={videoRef}>
+        <video controls ref={videoRef} poster={item.poster ? utils.assetUrl(item.poster) : ''}>
           <source src={utils.assetUrl(item.url)} type="video/mp4" />
               Your browser does not support the video tag.
         </video>
