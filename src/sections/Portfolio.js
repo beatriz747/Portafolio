@@ -15,7 +15,7 @@ function Portfolio({ portfolio }) {
         </div>
         <div className="row">
           { portfolio.images.map((image, index) => (
-            <div key={'portfolio-img-'+index} className="col-12 col-md-4 gallery-item">
+            <div key={'portfolio-img-'+index} className="col-6 col-md-6 col-lg-4 gallery-item">
               <img src={utils.assetUrl(image.url)} alt={image.title} className="img-fluid" />
             </div>
           ))}

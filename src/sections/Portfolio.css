@@ -13,10 +13,22 @@
 
 .fh5co-portfolio .gallery-item img {
     width: 100%;
-    height: 480px;
+    height: 260px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media(min-width: 768px) {
+    .fh5co-portfolio .gallery-item img {
+        height: 480px;
+    }
+}
+
+@media(min-width: 960px) {
+    .fh5co-portfolio .gallery-item img {
+        height: 560px;
+    }
 }
 
 .fh5co-portfolio .gallery-title {
