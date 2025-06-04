@@ -1,16 +1,12 @@
 import { useEffect, useState } from 'react';
-
-import Activity from './sections/Activity';
 import Footer from './sections/Footer';
 import ProfileBio from './sections/ProfileBio';
 import Navbar from './sections/Navbar';
 import Portfolio from './sections/Portfolio';
-import Testimonial from './sections/Testimonial';
-
-import './App.css';
 import Features from './sections/Features';
 import Brands from './sections/Brands';
 import RecentWork from './sections/RecentWork';
+import './App.css';
 
 function App() {
 
