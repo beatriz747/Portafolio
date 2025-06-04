@@ -183,26 +183,50 @@
             {
                 "name": "Comida colombiana - Restaurant",
                 "username": "@cazuelitasdecolombia",
-                "image": "https://scontent-mia5-1.cdninstagram.com/v/t51.2885-19/450483773_832495925148748_4284947472653325760_n.jpg?_nc_ht=scontent-mia5-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2QFLhYplAqXpOtNwtevcepBW_2DZ9mTXlv3mNsqAt1IDmUn0HYkvcneAl_LyM9Cv_q0&_nc_ohc=gypEcNHndygQ7kNvwEBpIUG&_nc_gid=cvA-MFLado-ZrjeUNWr5rA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfLq9isnmmy3qflMB7EfRwsz51Ya7qatWEJzPZjc8xNWXw&oe=68457395&_nc_sid=7a9f4b",
+                "image": "/img/brands/cazuelitasdecolombia.jpg",
                 "url": "https://www.instagram.com/cazuelitasdecolombia?igsh=OThneWIzNjFvOHk2"
             },
             {
                 "name": "Distribuidor Oficial de motores Mercury",
                 "username": "@mercuryesm",
-                "image": "https://scontent-mia3-1.cdninstagram.com/v/t51.2885-19/439258809_7493658087354791_2783318771332563888_n.jpg?_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2QGM4d9gJfhBtLWKFcpZZGzJ2QzYFGg-tUsQ-OXWVDQXXBwSjQvLYZSwrBD8Ns8IGew&_nc_ohc=wlWrUg61aHkQ7kNvwFzm4os&_nc_gid=CEECCpG2M0kHeSRVcTP9vg&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfL7VtR-zLJjYzMralmoG524OjcVbjLWsUx0_3kQ1_MWzA&oe=68457AA7&_nc_sid=7a9f4b",
+                "image": "/img/brands/mercuryesm.jpg",
                 "url": "https://www.instagram.com/mercuryesm"
             },
             {
                 "name": "Tiendas Daka",
                 "username": "@tiendasdaka",
-                "image": "https://scontent-mia5-2.cdninstagram.com/v/t51.2885-19/470940593_1409947033321922_8343717986057850878_n.jpg?_nc_ht=scontent-mia5-2.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2QH9JzEaq_y-EuTWK4_XtPazKYPSjR9MRoMrfo0SurNtor7GG-V9kkf0B2SHYQmaGI4&_nc_ohc=0f-v3B2g3lQQ7kNvwGu10ar&_nc_gid=mcQhNlVvoFGB_gdv6vClCA&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfJIQy8sSEEUlViQsXlgLnVXDahgIQxFANxXRb3e-xOKyA&oe=68458F1C&_nc_sid=7a9f4b",
+                "image": "/img/brands/tiendasdaka.jpg",
                 "url": "https://www.instagram.com/tiendasdaka"
             },
             {
                 "name": "MultiMax",
                 "username": "@multimax",
-                "image": "https://scontent-mia5-2.cdninstagram.com/v/t51.2885-19/461443388_1832538163989689_1449926216000876216_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=scontent-mia5-2.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2QGjbOSdWvf7YE4Je9zy7I-9rGpq3rWYyjOJ4U-VlQXawETqKK0gj-zNUTrWQBl5SaA&_nc_ohc=6ZdlFJlSCEUQ7kNvwEoihJV&_nc_gid=yqa6GcwcQn33jXL1dg4q0A&edm=ACE-g0gBAAAA&ccb=7-5&oh=00_AfJAGh8w0wcP03uP6hE1csajUUYggf9_M2xgIbA2-Eb0eQ&oe=684582D4&_nc_sid=b15361",
+                "image": "/img/brands/multimax.jpg",
                 "url": "https://www.instagram.com/multimax"
+            },
+            {
+                "name": "Kucce",
+                "username": "@kucceofficial",
+                "image": "/img/brands/kucceofficial.jpg",
+                "url": "https://www.instagram.com/kucceofficial"
+            },
+            {
+                "name": "BIJAO BAR AND LOUNGE",
+                "username": "@bijaoccs",
+                "image": "/img/brands/bijaoccs.jpg",
+                "url": "https://www.instagram.com/bijaoccs"
+            },
+            {
+                "name": "𝐀́ S Y A",
+                "username": "@asya.vzla",
+                "image": "/img/brands/asyavzla.jpg",
+                "url": "https://www.instagram.com/asya.vzla"
+            },
+            {
+                "name": "Q'Krunch",
+                "username": "@qkrunch",
+                "image": "/img/brands/qkrunch.jpg",
+                "url": "https://www.instagram.com/qkrunch"
             }
         ]
     }
