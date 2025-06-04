@@ -171,7 +171,12 @@
                 "url": "img/portfolio/IMG_5433.jpg",
                 "title": "Outdoors photography"
             }
-        ]
+        ],
+        "featuredVideo": {
+            "source": "/img/portfolio/featured.mp4",
+            "caption": "Video destacado"
+        },
+        "cta": "https://wa.me/584145823713?text=Hola, me interesa trabajar contigo"
     },
     "brands": {
         "title": "Marcas con las que he trabajado",
