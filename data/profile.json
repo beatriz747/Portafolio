@@ -133,46 +133,43 @@
     },
     "portfolio": {
         "title": "Portafolio",
+        "description": "Donde nace la magia",
         "images": [
             {
-                "url": "img/portfolio-img1.png",
-                "title": "Natural site",
-                "layout": "bx-1"
+                "url": "img/portfolio/IMG_5419.jpeg",
+                "title": "Natural site"
             },
             {
-                "url": "img/portfolio-img2.png",
-                "title": "Vacation special photography",
-                "layout": "bx-2"
+                "url": "img/portfolio/IMG_5422.jpeg",
+                "title": "Vacation special photography"
             },
             {
-                "url": "img/portfolio-img3.png",
-                "title": "Product photography",
-                "layout": "bx-3"
+                "url": "img/portfolio/IMG_5427.jpg",
+                "title": "Vacation special photography"
             },
             {
-                "url": "img/portfolio-img6.png",
-                "title": "Historical place shots",
-                "layout": "bx-4"
+                "url": "img/portfolio/IMG_5428.jpg",
+                "title": "Product photography"
             },
             {
-                "url": "img/portfolio-img4.png",
-                "title": "Urban photography",
-                "layout": "bx-4"
+                "url": "img/portfolio/IMG_5429.jpg",
+                "title": "Historical place shots"
             },
             {
-                "url": "img/portfolio-img5.png",
-                "title": "Outdoors photography",
-                "layout": "bx-4"
+                "url": "img/portfolio/IMG_5430.jpg",
+                "title": "Urban photography"
             },
             {
-                "url": "img/portfolio-img7.png",
-                "title": "Outdoors photography",
-                "layout": "bx-1"
+                "url": "img/portfolio/IMG_5431.jpg",
+                "title": "Outdoors photography"
             },
             {
-                "url": "img/portfolio-img8.png",
-                "title": "Outdoors photography",
-                "layout": "bx-2"
+                "url": "img/portfolio/IMG_5432.jpg",
+                "title": "Outdoors photography"
+            },
+            {
+                "url": "img/portfolio/IMG_5433.jpg",
+                "title": "Outdoors photography"
             }
         ]
     },
