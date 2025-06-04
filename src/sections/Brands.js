@@ -13,16 +13,16 @@ function Brands({ brands }) {
                 </div>
                 <div className="row g-4">
                     { brands.items.map((item, index) => (
-                        <div key={"brand-"+index} className="col-md-6 col-lg-4 mb-4">
-                            <div className="card h-100 card-ig-profile">
-                                <div className="card-body text-center">
-                                    <img src={utils.assetUrl(item.image)} alt={item.username} className="rounded-circle mb-3" style={{ width: '150px', height: '150px' }} />
-                                    <h3 className="card-title fw-semibold">{ item.name }</h3>
-                                    <p className="card-text text-muted">{item.username}</p>
-                                    <a href={item.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">Ver en Instagram</a>
-                                </div>
+                    <div key={"brand-"+index} className="col-6 col-lg-2 mb-4">
+                        <div className="card h-100 card-ig-profile">
+                            <div className="card-body text-center">
+                                <img src={utils.assetUrl(item.image)} alt={item.username} className="rounded-circle mb-3" style={{ width: '100px', height: '100px' }} />
+                                <h3 className="card-title fw-semibold">{ item.name }</h3>
+                                <p className="card-text text-muted">{item.username}</p>
+                                <a href={item.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-sm">Ver en Instagram</a>
                             </div>
                         </div>
+                    </div>
                     ))}
                 </div>
             </div>
