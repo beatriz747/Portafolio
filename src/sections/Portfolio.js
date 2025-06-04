@@ -15,14 +15,14 @@ function Portfolio({ portfolio }) {
         </div>
         <div className="row">
           { portfolio.images.map((image, index) => (
-            <div key={'portfolio-img-'+index} className="col-6 col-md-4 gallery-item">
+            <div key={'portfolio-img-'+index} className="col-12 col-md-4 gallery-item">
               <img src={utils.assetUrl(image.url)} alt={image.title} className="img-fluid" />
             </div>
           ))}
         </div>
         <div className="row my-5">
           <div className="col-12 col-md-6 col-lg-4 mx-auto text-center">
-            <h5>{ portfolio.featuredVideo.caption }</h5>
+            <h2 className="caption">{ portfolio.featuredVideo.caption }</h2>
             <video id="featuredVideo" className="w-100" controls autoPlay>
               <source src={utils.assetUrl(portfolio.featuredVideo.source)} type="video/mp4" />
               Your browser does not support the video tag.
