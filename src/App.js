@@ -52,8 +52,6 @@ function App() {
       <Features features={profileData.features} />
       <Brands brands={profileData.brands} />
       <Portfolio portfolio={profileData.portfolio} />
-      <Activity />
-      <Testimonial />
       <Footer />
     </>
   );

@@ -1,0 +1,40 @@
+.fh5co-portfolio .gallery-item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.fh5co-portfolio .gallery-item:hover {
+    transform: scale(1.03);
+}
+
+.fh5co-portfolio .gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fh5co-portfolio .gallery-title {
+    background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+    padding: 40px 0;
+    margin-bottom: 40px;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.fh5co-portfolio .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    height: 40px;
+    opacity: 0.5;
+    padding: 10px;
+    background-color: black;
+}
+
+.fh5co-portfolio .overlay h5 {
+    color: white;
+    font-size: 1rem;
+}
