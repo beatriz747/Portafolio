@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-v18.x-blue)](https://react.dev/)
-[![Version](https://img.shields.io/badge/version-0.5-green)](https://img.shields.io/badge/version-0.5-green)
+[![Version](https://img.shields.io/badge/version-0.6-green)](https://img.shields.io/badge/version-0.6-green)
 
 ## Overview
 
