@@ -21,25 +21,37 @@
     ],
     "features": {
         "title": "Mis Servicios",
-        "description": "Ofrecemos una variedad de servicios para ayudarte a alcanzar tus metas.",
+        "description": "Te ofrezco las herramientas y servicios digitales para construir tu Éxito y hacerte destacar.",
         "services": [
             {
-                "icon": "fas fa-rocket",
                 "style": "primary",
                 "title": "Branding y Estrategia",
-                "text": "Te ayudamos a definir tu identidad de marca y a crear una estrategia para llegar a tu público objetivo."
+                "text": "Defino la esencia de tu marca. Juntos creamos la identidad y el mensaje que te diferencia y conecta con tu público."
             },
             {
-                "icon": "fas fa-tools",
                 "style": "success",
-                "title": "Gestión de Proyectos",
-                "text": "Gestionamos tus proyectos de principio a fin, asegurando que se entreguen a tiempo y dentro del presupuesto."
+                "title": "Gestión de Redes Sociales",
+                "text": "Tu marca siempre activa. Me ocupo de tu Instagram y otras plataformas digitales (Tiktok, Facebook, WhatsApp) y de la planificación para un crecimiento constante."
             },
             {
-                "icon": "fas fa-pencil",
                 "style": "warning",
                 "title": "Creación de Contenido",
-                "text": "Creamos contenido de alta calidad que atrae a tu audiencia e impulsa resultados."
+                "text": "Siempre hay una historia detrás, con ello lo convertiremos en impacto visual y visual. Transformo tus ideas en fotos y videos cautivadores que conectan y generan resultados."
+            },
+            {
+                "style": "info",
+                "title": "Gestión de Ads",
+                "text": "Publicidad y campañas segmentadas profesionalmente)<br/>Posicionamiento SEO<br/>Publicidad en Google"
+            },
+            {
+                "style": "info",
+                "title": "Asesorías",
+                "text": "Individuales o grupales<br/>Planificación estratégica<br/>Cobertura de eventos o lanzamientos de productos"
+            },
+            {
+                "style": "success",
+                "title": "Desarrollo web",
+                "text": "Páginas Web informativas<br/>Páginas móviles<br/>Tiendas virtuales<br/>Desarrollo de aplicaciones"
             }
         ]
     },

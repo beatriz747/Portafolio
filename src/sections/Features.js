@@ -5,6 +5,7 @@ function Features({ features }) {
     function getIconClassName(icon, style) {
         return [icon, "text-"+style, "h1", "mb-3"].join(" ");
     }
+
     return (
         <section className="container-fluid fh5co-features section-bg-dark" id="servicios">
             <div className="container">
@@ -19,9 +20,9 @@ function Features({ features }) {
                     <div key={"feature-"+index} className="col-md-6 col-lg-4 mb-4">
                         <div className="card feature-card h-100">
                             <div className="card-body text-center">
-                                <i className={getIconClassName(service.icon, service.style)}></i>
+                                { service.icon && (<i className={getIconClassName(service.icon, service.style)}></i>) }
                                 <h3 className="card-title fw-semibold">{ service.title }</h3>
-                                <p className="card-text text-muted">{ service.text }</p>
+                                <p className="card-text text-muted" dangerouslySetInnerHTML={{ __html: service.text }}></p>
                             </div>
                         </div>
                     </div>
