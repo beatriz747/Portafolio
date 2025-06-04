@@ -50,7 +50,7 @@ function App() {
       <ProfileBio profile={profileData} />
       <RecentWork gallery={profileData.recentWork} />
       <Features features={profileData.features} />
-      <Brands />
+      <Brands brands={profileData.brands} />
       <Portfolio portfolio={profileData.portfolio} />
       <Activity />
       <Testimonial />
