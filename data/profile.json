@@ -36,12 +36,12 @@
             {
                 "style": "warning",
                 "title": "Creación de Contenido",
-                "text": "Siempre hay una historia detrás, con ello lo convertiremos en impacto visual y visual. Transformo tus ideas en fotos y videos cautivadores que conectan y generan resultados."
+                "text": "Siempre hay una historia detrás, suficiente para darle forma y convertirlo en impacto visual. Transformo tus ideas en fotos y videos cautivadores que conectan y generan resultados."
             },
             {
                 "style": "info",
                 "title": "Gestión de Ads",
-                "text": "Publicidad y campañas segmentadas profesionalmente)<br/>Posicionamiento SEO<br/>Publicidad en Google"
+                "text": "Publicidad y campañas segmentadas profesionalmente<br/>Posicionamiento SEO<br/>Publicidad en Google"
             },
             {
                 "style": "info",
@@ -227,6 +227,60 @@
                 "username": "@qkrunch",
                 "image": "/img/brands/qkrunch.jpg",
                 "url": "https://www.instagram.com/qkrunch"
+            },
+            {
+                "name": "iCenterve",
+                "username": "@icenterve",
+                "image": "/img/brands/icenterve.jpg",
+                "url": "https://www.instagram.com/icenterve"
+            },
+            {
+                "name": "Gerardo E Campos",
+                "username": "@gerardoecampos",
+                "image": "/img/brands/gerardoecampos.jpg",
+                "url": "https://www.instagram.com/gerardoecampos"
+            },
+            {
+                "name": "Mercedes Rest",
+                "username": "@mercdsrestaurant",
+                "image": "/img/brands/mercdsrestaurant.jpg",
+                "url": "https://www.instagram.com/mercdsrestaurant"
+            },
+            {
+                "name": "Modern Home | Mueblería",
+                "username": "@modernhome.vzla",
+                "image": "/img/brands/modernhomevzla.jpg",
+                "url": "https://www.instagram.com/modernhome.vzla"
+            },
+            {
+                "name": "INNOVA | Centro estético",
+                "username": "@innova_caracas",
+                "image": "/img/brands/innova_caracas.jpg",
+                "url": "https://www.instagram.com/innova_caracas"
+            },
+            {
+                "name": "Descarga Gastrobar",
+                "username": "@descarga.gastrobar",
+                "image": "/img/brands/descargagastrobar.jpg",
+                "url": "https://www.instagram.com/descarga.gastrobar"
+            },
+            {
+                "name": "Bucare Caracas Restaurant",
+                "username": "@bucarecaracas",
+                "image": "/img/brands/bucarecaracas.jpg",
+                "url": "https://www.instagram.com/bucarecaracas"
+            },
+            {
+                "name": "Arcadia | Agencia de Viajes",
+                "username": "@arcadia.viajes",
+                "image": "/img/brands/arcadiaviajes.jpg",
+                "url": "https://www.instagram.com/arcadia.viajes"
+            },
+            {
+                "name": "Cantv Ve",
+                "username": "@cantv.ve",
+                "image": "/img/brands/cantvve.jpg",
+                "url": "https://www.instagram.com/cantv.ve"
             }
         ]
     }
